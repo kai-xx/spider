@@ -187,7 +187,7 @@ class U8:
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # pyinstaller main.py   --onefile --specpath ./build/linux
-    # python3 main.py --name 张先生 --phone 15536302225 --province 山西 --city  太原
+    # python3 main.py --name 张先生 --phone 15522222222 --province 山西 --city  太原
     parser = argparse.ArgumentParser()
     parser.add_argument("--name", help="客户名称")
     parser.add_argument("--phone", help="手机号")
